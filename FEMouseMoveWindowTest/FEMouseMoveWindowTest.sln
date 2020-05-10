@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEMouseMoveWindowTest", "FEMouseMoveWindowTest\FEMouseMoveWindowTest.csproj", "{6202603D-5D68-423D-A17B-80B2DC728EC2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C964391-1668-4E69-B7D9-095407B597B4} = {6C964391-1668-4E69-B7D9-095407B597B4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEMouseMoveWindow", "..\FEMouseMoveWindow\FEMouseMoveWindow\FEMouseMoveWindow.csproj", "{6C964391-1668-4E69-B7D9-095407B597B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6202603D-5D68-423D-A17B-80B2DC728EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6202603D-5D68-423D-A17B-80B2DC728EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6202603D-5D68-423D-A17B-80B2DC728EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6202603D-5D68-423D-A17B-80B2DC728EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C964391-1668-4E69-B7D9-095407B597B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C964391-1668-4E69-B7D9-095407B597B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C964391-1668-4E69-B7D9-095407B597B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C964391-1668-4E69-B7D9-095407B597B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95F252C2-769D-4353-92FC-710620C7861B}
+	EndGlobalSection
+EndGlobal
